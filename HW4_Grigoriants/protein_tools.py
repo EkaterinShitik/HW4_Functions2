@@ -134,7 +134,7 @@ def search_for_alt_frames(sequences: str, alt_start_aa: str) -> dict:
     Example: alt_start_aa = "I"
 
     Return:
-    - dictionary: the number of a sequence and a collection of alternative frames
+    - dictionary: the original sequences and a collection of alternative frames
     """
     alternative_frames = {}
     num_position = 0
